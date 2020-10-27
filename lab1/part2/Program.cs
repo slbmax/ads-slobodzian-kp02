@@ -68,7 +68,7 @@ namespace part2
             return days + d;
 
         }
-        static bool check_the_correct_date(int m, int d)   //ce ne nada sha
+        static bool check_the_correct_date(int m, int d)
         {
             if (m > 0 && m < 13 && d > 0 && d < 32)
             {
