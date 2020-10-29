@@ -15,7 +15,7 @@ namespace part1
             double ln = Math.Log(Math.Abs(y-x), Math.E);
             if (z==-x || x==y || ln==-2)
             {
-            Console.WriteLine("Error:wrong data");
+                Console.WriteLine("Error:wrong data");
             }
             else
             {

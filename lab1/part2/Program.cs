@@ -18,19 +18,19 @@ namespace part2
             {
                 int what_week_is = day_sum(m,d)%7;
                 if(what_week_is == 1)
-                Console.WriteLine("Day:{0}, month:{1}, it`s wednesday", d, m);
+                    Console.WriteLine("Day:{0}, month:{1}, it`s wednesday", d, m);
                 else if(what_week_is == 2)
-                Console.WriteLine("Day:{0}, month:{1}, it`s thursday", d, m);
+                    Console.WriteLine("Day:{0}, month:{1}, it`s thursday", d, m);
                 else if(what_week_is == 3)
-                Console.WriteLine("Day:{0}, month:{1}, it`s friday", d, m);
+                    Console.WriteLine("Day:{0}, month:{1}, it`s friday", d, m);
                 else if(what_week_is == 4)
-                Console.WriteLine("Day:{0}, month:{1}, it`s saturday", d, m);
+                    Console.WriteLine("Day:{0}, month:{1}, it`s saturday", d, m);
                 else if(what_week_is == 5)
-                Console.WriteLine("Day:{0}, month:{1}, it`s sunday", d, m);
+                    Console.WriteLine("Day:{0}, month:{1}, it`s sunday", d, m);
                 else if(what_week_is == 6)
-                Console.WriteLine("Day:{0}, month:{1}, it`s monday", d, m);
+                    Console.WriteLine("Day:{0}, month:{1}, it`s monday", d, m);
                 else
-                Console.WriteLine("Day:{0}, month:{1}, it`s tuesday", d, m);
+                    Console.WriteLine("Day:{0}, month:{1}, it`s tuesday", d, m);
             }
         }
 
@@ -40,13 +40,13 @@ namespace part2
             if (month < 8)
             {
                 if (month == 2)
-                return 28;
+                    return 28;
                 else
                     {
                     if (month % 2 == 1)
-                    return 31;
+                        return 31;
                     else
-                    return 30;
+                        return 30;
                     }
             }
             else
