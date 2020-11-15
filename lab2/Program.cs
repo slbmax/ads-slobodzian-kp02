@@ -64,7 +64,7 @@ namespace lab2
         static int[,] ControlMatrix(int n)
         {
             int[,] matrix = new int[n,n];
-            int c = 1;
+            int c = 0;
             for(int i = 0; i<n ; i++)
             {
                 for(int j = 0; j<n; j++)
