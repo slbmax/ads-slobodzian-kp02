@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;       //finished
 
 namespace lab5
 {
